@@ -1,0 +1,34 @@
+# ---- Secrets (never commit) ----
+.env
+*.key
+*.pem
+
+# ---- Heavy / transient artifacts (released separately, not in git) ----
+repos/
+wiki/
+results/
+results_from_pod*/
+*.db
+*.db-wal
+*.db-shm
+*.jsonl
+*.log
+*.zip
+*.safetensors
+
+# ---- External datasets (not ours) ----
+data/agentbench_train.*
+data/swe_bench*.csv
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---- OS / editor ----
+.DS_Store
+*.swp
