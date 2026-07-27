@@ -93,9 +93,10 @@ AGENTS.md                # the context file under study (example artifact)
 ```
 
 > **Not included here** (heavy or sensitive, available from the authors on
-> request): cloned target repositories, raw agent transcripts (`*.jsonl`), the
-> full `experiment_full.db` with generated diffs, and external datasets. See
-> `.gitignore`.
+> request): cloned target repositories, raw agent transcripts (`*.jsonl`), and
+> external datasets. `experiment_full.db`, `probe_codex.db`, and
+> `probe_claude.db` (generated diffs, per-run/per-turn metrics) are released
+> in `data/`. See `.gitignore`.
 
 ---
 
@@ -127,9 +128,9 @@ df = pd.read_csv("data/results_summary.csv")
 print(df.groupby(["agent","strategy"]).task_passed.mean().mul(100).round(1))
 PY
 
-# full statistical analysis (requires experiment_full.db — request from authors)
-python3 power_analysis.py experiment_full.db claude_code
-python3 power_analysis.py experiment_full.db codex
+# full statistical analysis
+python3 power_analysis.py data/experiment_full.db claude_code
+python3 power_analysis.py data/experiment_full.db codex
 python3 efficiency_stats_correct.py
 ```
 
