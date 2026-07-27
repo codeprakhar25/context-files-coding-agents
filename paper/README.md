@@ -1,23 +1,14 @@
 # Paper — "Do Context Files Help Coding Agents?"
 
-REALM @ EMNLP 2026 (workshop), ACL format. arXiv preprint.
+Submitted to REALM @ EMNLP 2026 (workshop), under review.
+
+The paper source lives on arXiv, not in this repo — arXiv is the canonical
+host once posted, so we don't keep a second LaTeX copy here that can drift
+out of sync with it. **arXiv link: TBA.**
 
 ## Files
-- `main.tex` — full paper (Abstract → Conclusion + mandatory statements + appendix).
-- `references.bib` — bibliography.
-- `data/key_numbers.md` — auto-extracted ground-truth numbers (provenance for every
-  quantitative claim; regenerate from the dbs).
-- `figures/pertask.pdf` — per-task outcome figure.
-
-## Build
-Needs the ACL style files (`acl.sty`, `acl_natbib.bst`) from the ACL paper template
-(https://github.com/acl-org/acl-style-files). Easiest path: upload `main.tex` +
-`references.bib` + `figures/` to Overleaf with the "ACL" template, or locally:
-```
-# place acl.sty + acl_natbib.bst alongside main.tex, then:
-pdflatex main && bibtex main && pdflatex main && pdflatex main
-```
-No local TeX here, so the PDF is not built in-repo.
+- `data/key_numbers.md` — auto-extracted ground-truth numbers, provenance for
+  every quantitative claim in the paper (regenerate from the released `.db` files).
 
 ## Content map (data-grounded)
 - Correctness null both agents — Table 1 (Claude 53.3/55.6/55.6%, Codex 58.8/56.9/52.9%).

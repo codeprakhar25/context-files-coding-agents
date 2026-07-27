@@ -86,7 +86,7 @@ data/
   experiment_full.db     # raw per-run/per-turn data, 291-run ablation
   probe_codex.db, probe_claude.db   # raw data, 36-cell probe
   README.md              #   column dictionary + reproduce snippet
-paper/                   # LaTeX manuscript (ACL format) + bibliography
+paper/                   # data/key_numbers.md — provenance for every number in the paper
 analyze.py, power_analysis.py, efficiency_analysis.py, ...   # analysis scripts
 AGENTS.md                # the context file under study (example artifact)
 ```
@@ -133,16 +133,16 @@ python3 power_analysis.py data/experiment_full.db codex
 python3 efficiency_stats_correct.py
 ```
 
-The paper PDF builds from `paper/main.tex` with the ACL style files
-(`acl.sty`, `acl_natbib.bst` from <https://github.com/acl-org/acl-style-files>);
-easiest on Overleaf with the ACL template. See `paper/README.md`.
+The paper itself is on arXiv (link TBA — see `paper/README.md`), not
+duplicated in this repo.
 
 ---
 
 ## Citing
 
-Paper under review at REALM @ EMNLP 2026. Citation details will be added on
-acceptance. Until then, please cite this repository.
+Paper under review at REALM @ EMNLP 2026; also posted as an arXiv preprint
+(link TBA). Citation details will be added once available. Until then,
+please cite this repository.
 
 ## License
 
