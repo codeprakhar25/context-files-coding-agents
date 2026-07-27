@@ -83,12 +83,12 @@ pod/                     # cloud-pod bring-up + DEFENSE-IN-DEPTH safety layer
 tasks/                   # benchmark task specifications (JSON)
 data/
   results_summary.csv    # aggregated per-cell outcomes (no raw transcripts)
+  experiment_full.db     # raw per-run/per-turn data, 291-run ablation
+  probe_codex.db, probe_claude.db   # raw data, 36-cell probe
   README.md              #   column dictionary + reproduce snippet
 paper/                   # LaTeX manuscript (ACL format) + bibliography
 analyze.py, power_analysis.py, efficiency_analysis.py, ...   # analysis scripts
 RESULTS.md               # full results write-up
-POD_RUNBOOK.md           # how the locked cloud pods were operated
-research_plan.md         # original design document
 AGENTS.md                # the context file under study (example artifact)
 ```
 
