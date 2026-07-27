@@ -3,9 +3,11 @@
 ## `results_summary.csv`
 
 Aggregated, per-cell outcomes for all 291 runs behind the paper. One row per
-(task × strategy × agent × repeat). **Derived data only** — no raw agent
-transcripts, prompts, or generated diffs are included here (those are available
-from the authors on request).
+(task × strategy × agent × repeat). **Derived data only** — generated diffs,
+per-turn detail, and error/test-summary text are not in this CSV; they're in
+`experiment_full.db` / `probe_codex.db` / `probe_claude.db` (below). Raw agent
+transcripts (full `*.jsonl` logs) are not released and are available from the
+authors on request.
 
 | Column | Meaning |
 |---|---|
@@ -28,10 +30,9 @@ from the authors on request).
 | `created_at` | Run timestamp |
 
 ### Reproduce the headline analysis
-The analysis scripts in the repository root expect the **full** SQLite database
-(`experiment_full.db`, not shipped here — request from authors), but the
-correctness marginals and efficiency metrics can be recomputed directly from
-this CSV:
+The full statistical analysis (power/equivalence tests, per-turn detail) needs
+`experiment_full.db` (in this directory). Correctness marginals and efficiency
+metrics can also be recomputed directly from the CSV alone:
 
 ```python
 import pandas as pd

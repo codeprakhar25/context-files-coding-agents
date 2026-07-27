@@ -88,7 +88,6 @@ data/
   README.md              #   column dictionary + reproduce snippet
 paper/                   # LaTeX manuscript (ACL format) + bibliography
 analyze.py, power_analysis.py, efficiency_analysis.py, ...   # analysis scripts
-RESULTS.md               # full results write-up
 AGENTS.md                # the context file under study (example artifact)
 ```
 
