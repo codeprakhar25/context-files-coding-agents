@@ -3,8 +3,8 @@
 Submitted to REALM @ EMNLP 2026 (workshop), under review.
 
 The paper source lives on arXiv, not in this repo — arXiv is the canonical
-host once posted, so we don't keep a second LaTeX copy here that can drift
-out of sync with it. **arXiv link: TBA.**
+host, so we don't keep a second LaTeX copy here that can drift out of sync
+with it. **arXiv: <https://arxiv.org/abs/2607.27250>**
 
 ## Files
 - `data/key_numbers.md` — auto-extracted ground-truth numbers, provenance for

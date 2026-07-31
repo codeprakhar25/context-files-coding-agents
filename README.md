@@ -133,16 +133,27 @@ python3 power_analysis.py data/experiment_full.db codex
 python3 efficiency_stats_correct.py
 ```
 
-The paper itself is on arXiv (link TBA — see `paper/README.md`), not
-duplicated in this repo.
+The paper itself is on arXiv — <https://arxiv.org/abs/2607.27250> (see
+`paper/README.md`), not duplicated in this repo.
 
 ---
 
 ## Citing
 
-Paper under review at REALM @ EMNLP 2026; also posted as an arXiv preprint
-(link TBA). Citation details will be added once available. Until then,
-please cite this repository.
+Paper under review at REALM @ EMNLP 2026; also posted as an arXiv preprint:
+<https://arxiv.org/abs/2607.27250>.
+
+```bibtex
+@misc{khatri2026contextfiles,
+  title  = {Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories},
+  author = {Khatri, Prakhar},
+  year   = {2026},
+  eprint = {2607.27250},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2607.27250}
+}
+```
 
 ## License
 
