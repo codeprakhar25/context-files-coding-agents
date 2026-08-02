@@ -75,6 +75,8 @@ harness/                 # the experiment engine
   agent.py               #   ClaudeCodeAgent + CodexCLIAgent (stream parsing, watchdog)
   runner.py              #   per-cell orchestration, strategy application, history pruning
   config.py              #   run configuration / knobs
+  context.py             #   strategy injection: none / always_on / selective
+  generate_wiki.py       #   builds the retrieval wiki for the `selective` strategy
   evaluate.py            #   Tier-C gold-test evaluation pipeline
   tools.py, db.py, logger.py
   task_generator*.py     #   build benchmark tasks from merged PRs
@@ -88,7 +90,8 @@ data/
   README.md              #   column dictionary + reproduce snippet
 paper/                   # data/key_numbers.md — provenance for every number in the paper
 analyze.py, power_analysis.py, efficiency_analysis.py, ...   # analysis scripts
-AGENTS.md                # the context file under study (example artifact)
+AGENTS.md                # OpShin's own context file — the artifact injected under
+                         #   `always_on`/`selective` for the OpShin task set
 ```
 
 > **Not included here** (heavy or sensitive, available from the authors on
