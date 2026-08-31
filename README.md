@@ -143,7 +143,7 @@ The paper itself is on arXiv — <https://arxiv.org/abs/2607.27250> (see
 
 ## Citing
 
-Paper under review at REALM @ EMNLP 2026; also posted as an arXiv preprint:
+Paper on arXiv preprint:
 <https://arxiv.org/abs/2607.27250>.
 
 ```bibtex
