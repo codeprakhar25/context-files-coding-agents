@@ -1,11 +1,16 @@
 # Do Context Files Help Coding Agents?
 
+[![REALM @ EMNLP 2026](https://img.shields.io/badge/REALM%20%40%20EMNLP%202026-accepted-success)](https://arxiv.org/abs/2607.27250)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.27250-b31b1b)](https://arxiv.org/abs/2607.27250)
+
+> **Accepted at the REALM Workshop @ EMNLP 2026** (poster).
+
 **A two-agent ablation study on whether repository context files (`AGENTS.md` /
 `CLAUDE.md`) change how well LLM coding agents solve real GitHub issues.**
 
 This is the code-and-data release for the paper *"Do Context Files Help Coding
-Agents? A Two-Agent Ablation Study on Real Repositories"* (REALM @ EMNLP 2026,
-under review). It contains the full experimental harness, the safety
+Agents? A Two-Agent Ablation Study on Real Repositories"* (accepted at REALM @
+EMNLP 2026). It contains the full experimental harness, the safety
 infrastructure, the benchmark task specifications, the statistical analysis
 scripts, and an aggregated per-cell results table.
 
@@ -143,7 +148,8 @@ The paper itself is on arXiv — <https://arxiv.org/abs/2607.27250> (see
 
 ## Citing
 
-Paper on arXiv preprint:
+Accepted at the REALM Workshop @ EMNLP 2026. Until the proceedings version is
+out, please cite the arXiv preprint:
 <https://arxiv.org/abs/2607.27250>.
 
 ```bibtex
