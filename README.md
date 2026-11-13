@@ -1,15 +1,16 @@
 # Do Context Files Help Coding Agents?
 
-[![REALM @ EMNLP 2026](https://img.shields.io/badge/REALM%20%40%20EMNLP%202026-accepted-success)](https://arxiv.org/abs/2607.27250)
+[![REALM @ EMNLP 2026](https://img.shields.io/badge/REALM%20%40%20EMNLP%202026-published-success)](https://aclanthology.org/2026.realm-1.5/)
+[![ACL Anthology](https://img.shields.io/badge/ACL%20Anthology-2026.realm--1.5-ed1c24)](https://aclanthology.org/2026.realm-1.5/)
 [![arXiv](https://img.shields.io/badge/arXiv-2607.27250-b31b1b)](https://arxiv.org/abs/2607.27250)
 
-> **Accepted at the REALM Workshop @ EMNLP 2026** (poster).
+> **Published at the REALM Workshop @ EMNLP 2026** (poster) — [ACL Anthology](https://aclanthology.org/2026.realm-1.5/) · [PDF](https://aclanthology.org/2026.realm-1.5.pdf) · [arXiv](https://arxiv.org/abs/2607.27250).
 
 **A two-agent ablation study on whether repository context files (`AGENTS.md` /
 `CLAUDE.md`) change how well LLM coding agents solve real GitHub issues.**
 
 This is the code-and-data release for the paper *"Do Context Files Help Coding
-Agents? A Two-Agent Ablation Study on Real Repositories"* (accepted at REALM @
+Agents? A Two-Agent Ablation Study on Real Repositories"* (published at REALM @
 EMNLP 2026). It contains the full experimental harness, the safety
 infrastructure, the benchmark task specifications, the statistical analysis
 scripts, and an aggregated per-cell results table.
@@ -141,28 +142,40 @@ python3 power_analysis.py data/experiment_full.db codex
 python3 efficiency_stats_correct.py
 ```
 
-The paper itself is on arXiv — <https://arxiv.org/abs/2607.27250> (see
-`paper/README.md`), not duplicated in this repo.
+The paper itself is in the ACL Anthology — <https://aclanthology.org/2026.realm-1.5/> —
+and on arXiv — <https://arxiv.org/abs/2607.27250> (see `paper/README.md`); it is
+not duplicated in this repo.
 
 ---
 
 ## Citing
 
-Accepted at the REALM Workshop @ EMNLP 2026. Until the proceedings version is
-out, please cite the arXiv preprint:
-<https://arxiv.org/abs/2607.27250>.
+Published in the Proceedings of the Second Workshop for REsearch on Agent
+Language Models (REALM 2026), co-located with EMNLP 2026. Please cite the ACL
+Anthology version: <https://aclanthology.org/2026.realm-1.5/>.
 
 ```bibtex
-@misc{khatri2026contextfiles,
-  title  = {Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories},
-  author = {Khatri, Prakhar},
-  year   = {2026},
-  eprint = {2607.27250},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.SE},
-  url    = {https://arxiv.org/abs/2607.27250}
+@inproceedings{khatri-2026-context,
+    title = "Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories",
+    author = "Khatri, Prakhar",
+    editor = "Kamalloo, Ehsan  and
+      Gontier, Nicolas  and
+      Rozanov, Nikolai  and
+      Hashemzadeh, Maryam  and
+      Arora, Akhil",
+    booktitle = "Proceedings of the Second Workshop for {RE}search on Agent Language Models ({REALM} 2026)",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.realm-1.5/",
+    doi = "10.18653/2026.realm-1.5",
+    pages = "57--67",
+    ISBN = "979-8-89176-485-9"
 }
 ```
+
+The arXiv preprint is <https://arxiv.org/abs/2607.27250>.
 
 ## License
 

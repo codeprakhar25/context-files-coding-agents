@@ -1,10 +1,13 @@
 # Paper — "Do Context Files Help Coding Agents?"
 
-Submitted to REALM @ EMNLP 2026 (workshop), under review.
+Published at REALM @ EMNLP 2026 (workshop, poster). **ACL Anthology:
+<https://aclanthology.org/2026.realm-1.5/>** (pages 57–67, DOI
+`10.18653/2026.realm-1.5`).
 
-The paper source lives on arXiv, not in this repo — arXiv is the canonical
-host, so we don't keep a second LaTeX copy here that can drift out of sync
-with it. **arXiv: <https://arxiv.org/abs/2607.27250>**
+The paper is not duplicated in this repo: the ACL Anthology hosts the
+published version and arXiv hosts the preprint and LaTeX source, so we don't
+keep a second copy here that can drift out of sync. **arXiv:
+<https://arxiv.org/abs/2607.27250>**
 
 ## Files
 - `data/key_numbers.md` — auto-extracted ground-truth numbers, provenance for
