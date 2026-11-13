@@ -3,8 +3,11 @@
 [![REALM @ EMNLP 2026](https://img.shields.io/badge/REALM%20%40%20EMNLP%202026-published-success)](https://aclanthology.org/2026.realm-1.5/)
 [![ACL Anthology](https://img.shields.io/badge/ACL%20Anthology-2026.realm--1.5-ed1c24)](https://aclanthology.org/2026.realm-1.5/)
 [![arXiv](https://img.shields.io/badge/arXiv-2607.27250-b31b1b)](https://arxiv.org/abs/2607.27250)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4921--6275-a6ce39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4921-6275)
 
 > **Published at the REALM Workshop @ EMNLP 2026** (poster) — [ACL Anthology](https://aclanthology.org/2026.realm-1.5/) · [PDF](https://aclanthology.org/2026.realm-1.5.pdf) · [arXiv](https://arxiv.org/abs/2607.27250).
+>
+> **Author:** Prakhar Khatri ([ORCID 0009-0003-4921-6275](https://orcid.org/0009-0003-4921-6275)), Independent Researcher.
 
 **A two-agent ablation study on whether repository context files (`AGENTS.md` /
 `CLAUDE.md`) change how well LLM coding agents solve real GitHub issues.**
